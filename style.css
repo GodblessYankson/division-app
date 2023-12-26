@@ -1,6 +1,6 @@
 body{
     box-sizing: border-box;
-    background-color: aqua;
+    background-color: #1a1a1a;
     font-family: montserrat;
     margin: 0;
     display: flex;
@@ -45,6 +45,7 @@ input::placeholder{
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
 }
 .btn:hover{
     filter: brightness(0.8);
@@ -73,6 +74,9 @@ a{
 } 
 .fore-intro{
     display: block;
+}
+#intro{
+    color: azure;
 } 
 @media  screen and (max-width:450px) {
     form{
