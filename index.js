@@ -11,7 +11,7 @@ let score = JSON.parse(localStorage.getItem("score"))
 let scoreEl = document.getElementById("score")
 scoreEl.innerText = `score: ${score}`
 
-questionEl.innerText = `What is ${num1} / ${num2} to the nearest integer`
+questionEl.innerText = `What is ${num1} divided by ${num2} to the nearest integer`
 let correctAns = Math.round(num1 / num2)
 console.log(correctAns)
  formEl.addEventListener("submit", () => {
